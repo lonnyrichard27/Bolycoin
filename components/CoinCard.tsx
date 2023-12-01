@@ -18,7 +18,7 @@ const CoinCard: React.FC<CoinCardProps> = ({ coinData }) => {
       <View style={styles.textContainer}>
         <Text style={styles.name}>{coinData.name}</Text>
       </View>
-        <Text style={styles.price}>${formatPriceWithCommas(coinData.price)}</Text>
+      <Text style={styles.price}>${formatPriceWithCommas(coinData.price)}</Text>
     </View>
   );
 };
