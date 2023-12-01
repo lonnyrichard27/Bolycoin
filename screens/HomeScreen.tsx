@@ -100,6 +100,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation, route }) => {
           }}
         />
       </View>
+      
 
         {searchQuery.length === 0 ? (
         <FlatList
